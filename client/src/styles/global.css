@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ajoutez vos styles globaux ici */
+
+html {
+    scroll-behavior: smooth; /* Ajoute un effet de défilement doux */
+}
+
+body {
+    font-family: 'Inter', sans-serif; /* Exemple de police */
+    line-height: 1.5; /* Améliore la lisibilité */
+    margin: 0; /* Supprime les marges par défaut */
+    background-color: var(--background); /* Couleur d'arrière-plan personnalisée */
+    color: var(--foreground); /* Couleur de texte personnalisée */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold; /* Texte en gras pour les titres */
+}
+
+a {
+    color: inherit; /* Hérite de la couleur du texte */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+}
+
+a:hover {
+    text-decoration: underline; /* Souligne le lien au survol */
+}
+
+/* Vous pouvez ajouter d'autres styles globaux selon vos besoins */
