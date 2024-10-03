@@ -1,40 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# XPassGen
 
-First, run the development server:
+Bienvenue sur **XPassGen**, une application web qui vous permet de générer des mots de passe sécurisés facilement. Ce projet est construit avec Next.js, Tailwind CSS et d'autres technologies modernes pour offrir une expérience utilisateur fluide et intuitive.
+
+## Fonctionnalités
+
+### 1. Générateur de mots de passe
+
+- **Personnalisation des critères de génération** : Choisissez parmi plusieurs options pour personnaliser vos mots de passe, y compris l'inclusion de lettres minuscules, majuscules, chiffres et caractères spéciaux.
+- **Exclusion de caractères similaires** : Une option pour éviter l'utilisation de caractères facilement confondus (ex. : « O », « 0 », « l », « 1 »), rendant les mots de passe plus lisibles et moins sujets à des erreurs.
+- **Options de longueur** : Définissez la longueur de votre mot de passe pour répondre à vos besoins de sécurité.
+
+### 2. Interface utilisateur
+
+- **Design réactif** : L'application est optimisée pour une utilisation sur ordinateurs, tablettes et appareils mobiles grâce à Tailwind CSS.
+- **Mode sombre** : Profitez d'une interface sombre pour une expérience agréable lors de l'utilisation de l'application dans des conditions de faible luminosité.
+- **Accessibilité** : Tous les composants de l'interface sont conçus pour être accessibles, garantissant une navigation fluide pour tous les utilisateurs.
+
+### 3. Blog éducatif
+
+- **Articles informatifs** : Accédez à un blog où vous pouvez trouver des articles sur les meilleures pratiques en matière de sécurité des mots de passe et des conseils pour éviter les attaques courantes.
+- **SEO optimisé** : Le blog est conçu pour être facilement trouvé sur les moteurs de recherche, vous permettant d'attirer plus de visiteurs.
+
+### 4. Documentation API (à venir)
+
+- **Génération de mots de passe via API** : Préparez-vous à intégrer des fonctionnalités de génération de mots de passe directement dans vos applications grâce à une API dédiée.
+- **Documentation complète** : Une documentation détaillée sera fournie pour faciliter l'intégration de l'API par les développeurs.
+
+## Installation
+
+Pour commencer avec XPassGen, clonez le dépôt et installez les dépendances :
+
+```bash
+git clone https://github.com/yourusername/XPassGen.git
+cd XPassGen/client
+npm install
+```
+
+## Lancer l'application
+
+Pour lancer l'application en mode développement, utilisez la commande suivante :
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+L'application sera accessible à l'adresse [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Contribuer
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Si vous souhaitez contribuer à ce projet, n'hésitez pas à ouvrir des issues ou des pull requests. Toutes les contributions sont les bienvenues !
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
+```
